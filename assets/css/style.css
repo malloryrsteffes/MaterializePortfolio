@@ -40,6 +40,7 @@ body{
 
 }
 
+
 .section-header {
     padding-top: 0px;
     margin-top: 0px;
@@ -53,8 +54,7 @@ body{
     margin: 20px;
     height: 300px;
     width: 300px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
 
 }
 
@@ -65,4 +65,21 @@ body{
 img {
     height: 200px;
     width: 300px;
+}
+
+#aboutFluidContainer {
+    padding: 5%;
+    margin: 0 auto;
+}
+
+#aboutMeContainer {
+    width: 100%;
+    padding: 20px;
+}
+/* #aboutMe {
+    padding-top: 20px;
+} */
+
+#aboutText {
+    font-size: 16px;
 }
