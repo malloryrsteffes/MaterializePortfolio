@@ -46,8 +46,8 @@
     <div class="parallax-container valign-wrapper">
         <div class="container">
             <div class="row">
-                <div class="col l8 s12 white-text thin-text">
-                    <h4 class="left-align valign">Welcome to my site.</h4>
+                <div class="col l8 s12 white-text thin-text parallaxText">
+                    <h4 class="left-align valign">Welcome to my site!</h4>
                     <h5 class="left-align valign">I'm Mallory, a junior web developer based in Orlando.</h5>
                 </div>
             </div>
@@ -62,23 +62,86 @@
 
     <!-- Portfolio Section -->
 
-    <div class="container">
-        <h2 class="section-header">My Portfolio</h2>
-        <div class="row">
-            <div class="col l4 m8 offset-m2 s12">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/office.jpg">
+    <div class="container-fluid" id="portfolioContainer">
+        <div class="container" id="portfolioText">
+            <div class="row">
+                <div class="col l12">
+                    <h2 class="section-header white-text thin-text center">My Portfolio</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col l4 m8 offset-m2 s12">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="./assets/images/train.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Train Times<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://malloryrsteffes.github.io/crystal-game/" target="_blank">Try it out</a>
+                            </p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Train Times<i
+                                    class="material-icons right">close</i></span>
+                            <p>This train time scheduler takes your train's initial departure time and its frequency,
+                                then lets you
+                                know when it will arrive next. Built with Javascript and MomentJS.</p>
+                        </div>
                     </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Card Title<i
-                                class="material-icons right">more_vert</i></span>
-                        <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="col l4 m8 offset-m2 s12">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="./assets/images/crystal2.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Crystal Collectors<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://malloryrsteffes.github.io/crystal-game/" target="_blank">Play</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Crystal Collector<i
+                                    class="material-icons right">close</i></span>
+                            <p>Each crystal holds a random value. Get your crystal clicks to add up the random computer
+                                number! A game built with HTML/CSS and Javascript/jQuery.</p>
+                        </div>
                     </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Card Title<i
-                                class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+                <div class="col l4 m8 offset-m2 s12">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="./assets/images/bobRoss.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Quizzing with Bob Ross<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://malloryrsteffes.github.io/TriviaGame/" target="_blank">Play</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Quizzing with Bob Ross<i
+                                    class="material-icons right">close</i></span>
+                            <p>Do you think you know the happy painter? A trivia game built with HTML, CSS, and
+                                Javascript.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l4 m8 offset-m2 s12">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="./assets/images/questionmark.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Psychic Number Guess Game<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://malloryrsteffes.github.io/Psychic-Game/" target="_blank">Play</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Psychic Number Guess Game<i
+                                    class="material-icons right">close</i></span>
+                            <p>Can you guess what number the computer has chosen? A beginner Javascript project.</p>
+                        </div>
                     </div>
                 </div>
             </div>
