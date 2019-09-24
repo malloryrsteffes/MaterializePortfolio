@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    M.AutoInit();
-    $(".button-collapse").sidenav();
+    // M.AutoInit();
+    // $(".button-collapse").sidenav();
     $('.parallax').parallax();
 });
